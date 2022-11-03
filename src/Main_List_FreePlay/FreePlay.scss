@@ -1,0 +1,32 @@
+.oll-free-list{
+  margin: 0;
+  max-width: 1380px;
+  height: 400px;
+  display: flex;
+  justify-content:start;
+  background-color: black;
+}
+
+.free-black-bacgraund{
+  width: 750px;
+  height: 400px;
+  background-image: url(./img/black-triangle.jpg);
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black ;
+}
+
+.free-bloodsiker-bacgraund{
+  width: 540px;
+  height: 400px;
+  background-image: url(./img/Bloodseeker.jpg);
+  box-shadow:inset 0 -50px 100px  black, inset 0 50px 50px 50px black ;
+}
+
+.help-free{
+  padding: 100px 0 0 100px;
+  font-family: 'Neucha', cursive ;
+}
+
+.fore-line{
+  margin-bottom: 20px;
+  width: 100px;
+}

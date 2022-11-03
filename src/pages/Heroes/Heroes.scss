@@ -1,0 +1,187 @@
+
+.main-heroes{
+  margin: 0 ;
+  padding-bottom: 50px;
+  background-image: url(.//img/grey-bacgrount.jpg);
+  text-align: center;
+  box-shadow: inset 100px 3px 100px black, inset -5em 0 5em black;
+}
+
+.Strong-img{
+  width: 30px;
+  height: 20px;
+  background-color: #888888;
+  border-radius: 50px;
+  border: solid 2px #333333;
+  justify-content: center;
+  transform: rotateZ(135deg);
+}
+
+
+.Rhombus-img{
+  padding: 10px 7px;
+  width: 25px;
+  height: 25px;
+  background-color: #888888;
+  border-radius: 2px;
+}
+
+.oll-rhombus{
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+    transform: skew(10deg);
+
+}
+.arrow{
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/Arrow.png);
+}
+
+.arrow:hover{
+  box-shadow:inset 0px -5px 5px white;
+  border-radius: 45%;
+}
+
+.power-box{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(./img/bisson-str.jpg);
+  display: flex;
+}
+
+
+.power-box:hover{
+  box-shadow: 0px 10px 10px lightcoral;
+}
+
+.agila{
+  margin: 0 5px;
+  background-image: url(./img/bisson-agi.jpg);
+}
+
+.agila:hover{
+  box-shadow: 0px 10px 10px greenyellow;
+}
+
+.intelekt{
+  background-image: url(./img/bisson-int.jpg);
+}
+
+.intelekt:hover{
+  box-shadow: 0px 10px 10px lightblue;
+}
+
+.filter-container{
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1100px;
+  max-height: 100px;
+  background-image: url(./img/dark-bacground.jpg);
+  border-radius: 7px;
+}
+
+.felp-container{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.litel-filter-container{
+  padding: 0 100px 0 100px ;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+
+.text-help-h2{
+  margin-bottom: 100px;
+  padding: 30px 200px 30px 200px;
+  box-shadow: 0px 70px 70px black, inset 0 -2.5em 2.5em black;
+}
+
+.oll-text-heroes{
+  color: #C2BCBC;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.big-text-heroes{
+  margin-top: 33px;
+  font-size: 28px;
+  color: white;
+  gap: 50px;
+}
+.diferent-text{
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.tuke-heroes-text{
+  margin: 0;
+  padding-top: 50px;
+  color: white;
+}
+
+.heroes-container-box
+{
+  padding-top: 50px;
+  margin-left: 45px;
+  
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.heroes-oll-box{
+  margin: 7px;
+  width: 300px;
+  height: 165px;
+  box-shadow: inset 20px -20px 20px black, inset -1em 40px 1em black;
+  border-radius: 10px;
+
+}
+
+.heroes-oll-box:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+
+}
+
+.chaing-img{
+  margin: 7px auto;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.chaing-img:hover{
+  margin: 7px auto;
+  
+}
+
+.name-heroes{
+  width: 250px;
+  margin: 0;
+  text-align: start;
+  padding: 135px 0px 0px 20px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+ 
+}
+
+.name-heroes:hover{
+  box-shadow: inset 0px -25px 25px black;
+}

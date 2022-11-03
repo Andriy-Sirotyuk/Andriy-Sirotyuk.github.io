@@ -1,0 +1,41 @@
+.heroes-oll-slider-game{
+  max-width: 250px;
+  margin: 7px;
+  width: 210px;
+  height: 110px;
+  box-shadow: inset 20px -20px 20px black, inset -1em 40px 1em black;
+  border-radius: 10px;
+}
+
+.heroes-oll-slider-game:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.chaing-img-slider-game{
+  margin: 7px auto;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.name-heroes-slider-game{
+  width: 150px;
+  margin: 0;
+  text-align: start;
+  padding: 80px 0px 0px 20px;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+.oll-game-slider{
+  width: 1px;
+  justify-content: end;
+}
+
+
+

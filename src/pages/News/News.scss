@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.news-oll-box{
+  margin: 0;
+  text-align: center;
+  background-image: url(./img/top-bacgraund-news.avif);
+  border-bottom: 2px solid rgb(53, 2, 53);
+  box-shadow: inset 0 -5em 4em black;
+}
+
+.first-text-news-p{
+  margin: 0;
+  padding-left: 340px;
+  padding-top: 300px;
+  font-size: 25px;
+  color: white;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-align: start;
+  
+}
+
+.second-text-news-h2{
+  font-size: 46px;
+  color: white;
+  font-family: 'Neucha', cursive ;
+}
+
+.container-news-oll{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 50px 200px 30px 200px;
+  background-image: url(./img/news-black-bacgraund.jpg);
+}
+
+.main-conteyner-news{
+  margin: 0;
+  width: 400px;
+  height: 250px;
+  border-bottom: 3px solid purple;
+  border-radius: 5px; 
+  box-sizing: border-box;
+}
+
+.main-conteyner-news:hover{
+  box-shadow: inset 200px 100px 400px black ;
+  border: 3px solid white;
+}
+
+.oll-text-insaid{
+  font-size: 16px;
+  color: #888888;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.oll-text-insaid-h2{
+  margin: 0;
+  color: white;
+  font-family: 'Neucha', cursive ;
+  box-shadow: inset 0 -10px 25px  rgb(53, 2, 53);
+}
+
+.oll-text-insaid-p{
+  height: 50%;
+  opacity: 0;
+}
+
+.oll-text-insaid-p:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.one-news{
+  background-image: url(./img/one.png);
+}
+
+.two-news{
+  background-image: url(./img/two.jpg);
+}
+
+.three-news{
+  background-image: url(./img/three.jpg);
+}
+
+.fore-news{
+  background-image: url(./img/fore.png);
+}
+
+.five-news{
+  background-image: url(./img/five.png);
+}
+
+.six-news{
+  background-image: url(./img/six.jpg);
+}
+
+.seven-news{
+  background-image: url(./img/seven.jpg);
+}
+
+.eight-news{
+  background-image: url(./img/six.jpg);
+}
+
+.nine-news{
+  background-image: url(./img/nine.jpg);
+}
+
+.ten-news{
+  background-image: url(./img/ten.png);
+}
+
+.eleven-news{
+  background-image: url(./img/eleven.jpg);
+}
+
+.twelve-news{
+  background-image: url(./img/twelve.jpg);
+}
+
+.thirteen-news{
+  background-image: url(./img/thirteen.png);
+}

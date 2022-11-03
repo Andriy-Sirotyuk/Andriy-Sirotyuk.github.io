@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap');
+
+
+.main-list-news{
+  margin: 0;
+  padding: 0;
+  max-width: 1380px;
+  background-image: url(./img/news_bacgraund_list.jpg);
+  box-shadow: 0 -200px 100px  black,  inset  0  150px 100px black ;
+}
+
+.list-news-h2{
+  margin: 0;
+  padding-top: 150px;
+  text-align: center;
+  font-family: 'Neucha', cursive ;
+
+}
+
+.first-h2{
+  margin: 0;
+  color: #888888;
+  font-size: 56px;
+  letter-spacing: 5px;
+}
+
+.second-h2{
+  margin: 0;
+  color: white;
+  font-size: 81px;
+  letter-spacing: 10px;
+}
+
+.list-news-text{
+  margin: 0;
+  padding: 0 200px;
+  color: #D1D1D3 ;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.list-three-last-news{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px ;
+}
+
+.line-second{
+  width: 100px;
+  margin-left: 615px ;
+}

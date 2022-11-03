@@ -1,0 +1,230 @@
+.game-main-container{
+  max-width: 1380px;
+  background-image: url(./img/green-dirty-blackboard.jpg);
+
+}
+
+.help-oll-game{
+  max-width: 1380px;
+}
+
+.game-map{
+  margin: 0 0 0 -400px;
+  width: 550px;
+  height: 550px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-image: url(./img/dota2_map.png);
+}
+
+.map-hover-text{
+  margin: 0;
+  margin-top: 15px;
+  width: 550px;
+  height: 550px;
+  opacity: 0;
+}
+
+.map-hover-text:hover{
+  opacity: 1;
+}
+
+.game-p-one{
+  padding: 0 50px;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 470px 0 0 260px;
+  position:absolute;
+  border: 3px solid blue;
+  background-color: rgb(5, 5, 105);
+}
+
+.game-p-two{
+  position: absolute;
+  color: white;
+  margin: 300px 0 0 130px;
+  transform: rotateZ(318deg);
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px solid yellow;
+  background-color: rgb(161, 172, 6);
+}
+
+.game-p-three{
+  
+  width: 110px;
+  margin: 170px 0 0 -65px ;
+  position: absolute;
+  color: white;
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  transform: rotateZ(270deg);
+  border: 3px solid rgb(255, 0, 0);
+  background-color: rgb(150, 32, 32);
+}
+
+.game-p-fore{
+  margin: 90px 0 0 60px;
+  position: absolute;
+  color: white;
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px solid purple;
+  background-color: rgb(68, 9, 68);
+}
+
+.game-p-five{
+  margin: 440px 0 0 270px;
+  position: absolute;
+  color: white;
+  padding: 0 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px solid lawngreen;
+  background-color: green;
+}
+
+.oll-first-container{
+  max-width: 1380px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black;
+}
+
+.game-big-text{
+  margin: 0;
+  text-align: center;
+  font-size: 68px;
+  color: white;
+  font-family: 'Neucha', cursive ;
+  background-color: black;
+}
+
+li{
+  width: 200px;
+  text-align: start;
+  margin-bottom: 15px;
+  font-size: 34px;
+  color: white;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.game-one-li:hover{
+  border-radius: 20px;
+  box-shadow: inset 0px -10px 10px blue;
+}
+.game-two-li:hover{
+  border-radius: 20px;
+  box-shadow: inset 0px -10px 10px yellow;
+}
+.game-three-li:hover{
+  border-radius: 20px;
+  box-shadow: inset 0px -10px 10px red;
+}
+.game-fore-li:hover{
+  border-radius: 20px;
+  box-shadow: inset 0px -10px 10px purple;
+}
+.game-five-li:hover{
+  border-radius: 20px;
+  box-shadow: inset 0px -10px 10px green;
+}
+
+.game-a{
+  margin: 0;
+  color: white;
+  font-size: 34px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-decoration: none;
+}
+
+.izi-line{
+  max-width: 1380px;
+  max-height: 1200px;
+  padding-bottom: 100px;
+  background-image: url(./img/blue-bacgraund.jpg);
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black;
+  
+}
+
+.mid-line{
+  max-width: 1380px;
+  padding-bottom: 100px;
+  background-image: url(./img/black-hexagon.jpg);
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black;
+}
+
+.hard-line{
+  max-width: 1380px;
+  padding-bottom: 100px;
+  background-image: url(./img/red-black.jpg);
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black;
+}
+
+.roumer-line{
+  max-width: 1380px;
+  padding-bottom: 100px;
+  background-image: url(./img/purple-background.jpg);
+  box-shadow: inset 0 -50px 100px  black, inset 0 50px 50px 50px black;
+}
+
+.suport-line{
+  width: 1120px;
+  padding-bottom: 100px;
+  background-image: url(./img/green-backgraund.jpg);
+  box-shadow: inset 0 -70px 100px  black, inset 0 50px 50px 50px black;
+}
+
+.second-big-text-game{
+  margin: 0;
+  text-align: center;
+  color: rgb(184, 182, 182);
+  font-size: 34px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.litle-text-game{
+  margin: 100px 0 0 100px;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  width: 600px;
+  font-size: 24px;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: grey;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  background-color: black;
+  box-shadow: 10px 10px 20px white, -10px -10px 20px white ;
+
+}
+
+.game-slider{
+  margin: 0;
+  max-width: 250px;
+  height: 100%;
+}
+
+.oll-line-game-blak{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  box-shadow:   0 -50px 100px  black,  0 50px 50px 50px black;
+}
+
+.oll-list-game{
+  // margin-left: 250px;
+  max-width: 1380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tugezer-game{
+  display: flex;
+  flex-direction: row;
+}

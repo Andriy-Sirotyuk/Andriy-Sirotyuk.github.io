@@ -1,0 +1,23 @@
+.button-component{
+  margin-top: 12px;
+  padding: 15px 25px;
+  color: white;
+  font-size: 25px;
+  height: 65px;
+  max-width: 320px;
+  border: 2.5px solid #888888;
+  border-radius: 5px;
+  background-image: none;
+  background: transparent;
+  background-color: transparent;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+
+}
+
+.button-component:hover{
+  border: 2.5px solid #0962BB;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
